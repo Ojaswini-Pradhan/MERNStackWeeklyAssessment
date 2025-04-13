@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Beach Page</title>
+    <style>
+        p {
+            line-height: 1.6;
+        }
+        .para1 {
+            font-family: 'Arial', sans-serif;
+            text-align: left;
+        }
+        .para2 {
+            font-family: 'Georgia', serif;
+            text-align: center;
+        }
+
+        .caption {
+            font-family: 'Courier New', monospace;
+            text-align: right;
+            font-style: italic;
+        }
+
+        .btn {
+            background-color: #0077b6;  
+            color: white;               
+            padding: 15px 30px;         
+            border: 2px solid #005f73; 
+            border-radius: 5px;         
+            font-size: 16px;            
+            cursor: pointer;           
+            text-align: center;         
+            text-decoration: none;      
+            display: inline-block;      
+        }
+
+        .btn:hover {
+            background-color: #005f73;  
+            border-color: #004d60;      
+        }
+
+        
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #0077b6;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin: 20px auto;
+            text-align: center;
+            width: 300px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body style="background-color: lightblue; font-family: Arial; text-align: center;">
+
+    <h1>Welcome to the Beach!</h1>
+
+    <p class="para1">
+        The beach is a fun place where you can feel the soft sand and hear the waves. 
+        You can swim, make sandcastles, or just relax under the sun.
+    </p>
+
+    <p class="para2">
+        I love the beach because it is peaceful and beautiful. 
+        The sound of the ocean makes me feel happy and calm.
+    </p>
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" 
+         alt="Beautiful Beach" 
+         style="display: block; margin: 0 auto; width: 60%; border-radius: 10px;">
+
+    <p class="caption">
+        A peaceful view of the beach. 
+    </p>
+
+    <a href="#" class="btn">Explore the Beach</a>
+
+    <table>
+        <tr>
+            <th>Beach</th>
+            <th>Location</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td>Malibu</td>
+            <td>California</td>
+            <td>Surfing</td>
+        </tr>
+        <tr>
+            <td>Bondi</td>
+            <td>Australia</td>
+            <td>Swimming</td>
+        </tr>
+        <tr>
+            <td>Waikiki</td>
+            <td>Hawaii</td>
+            <td>Sunbathing</td>
+        </tr>
+    </table>
+
+    <form action="#">
+        <label for="favorite-beach">What's Your Favorite Beach?</label><br>
+        <input type="text" id="favorite-beach" name="favorite-beach" placeholder="Enter the name of your favorite beach"><br><br>
+
+        <label for="beach-activity">What Beach Activity Do You Enjoy?</label><br>
+        <input type="text" id="beach-activity" name="beach-activity" placeholder="e.g., surfing, building sandcastles"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
 
